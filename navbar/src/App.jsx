@@ -1,13 +1,13 @@
 import { Outlet } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import GlobalStyle from "./styles/Global.styled";
+import GlobalStyles from "./styles/Global.styled";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <Outlet />
-      <GlobalStyle />
+      <GlobalStyles />
     </div>
   );
 }
